@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "linux-in-practice-2nd"
+version = "0.1.0"
+description = ""
+authors = ["sa-kei728"]
+readme = "README.md"
+packages = [{include = "linux_in_practice_2nd"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+matplotlib = "^3.7.1"
+numpy = "^1.24.2"
+pillow = "^9.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
