@@ -10,7 +10,7 @@ packages = [{include = "linux_in_practice_2nd"}]
 python = "^3.11"
 matplotlib = "^3.7.1"
 numpy = "^1.24.2"
-pillow = "^9.4.0"
+pillow = "^10.3.0"
 
 [build-system]
 requires = ["poetry-core"]
